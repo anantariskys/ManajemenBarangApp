@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Barang"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/editTextHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/editTextMerk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Merk"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/editTextStok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stok"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background" />
+
+    <ImageView
+        android:id="@+id/imageViewBarang"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="Gambar Barang"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/buttonSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Gambar"
+        android:layout_marginBottom="12dp"
+        android:background="@color/blue_500"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:background="@color/blue_500"
+        android:textColor="@android:color/white" />
+</LinearLayout>

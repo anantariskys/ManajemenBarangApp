@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "903492011446",
+    "project_id": "manajemenbarangkotlin",
+    "storage_bucket": "manajemenbarangkotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903492011446:android:078f6b7c7ea08bac6bad17",
+        "android_client_info": {
+          "package_name": "com.example.manajemenbarangapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKanXeeFJJ7p8-2QqPoVE0H2iAYBPT4uo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
